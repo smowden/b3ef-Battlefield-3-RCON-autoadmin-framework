@@ -12,17 +12,17 @@ Included modules
 ===========
 B3EF comes prepackaged with four modules:
 
- *Mapsettings:
+ * Mapsettings:
   Create tailor-made settings for each and every map/mode combination in your rotation. You can specify your desired
   settings, allowed weapons and announcements for a map/mode combination. This module will take care of altering and
   resetting the server settings and enforcing weapon restrictions in a way that does not interrupt gameplay.
 
- *Votekick/Voteban
+ * Votekick/Voteban
 
- *Min/Max Rank enforcer
+ * Min/Max Rank enforcer
   Limit the allowed minimum or maximum rank on your server
 
- *Killstreak announcer
+ * Killstreak announcer
 
 Moreover the `punisher` and `playerlist` module provide a simple interface for handling punishment and the playerlist
 
