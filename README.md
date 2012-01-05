@@ -11,10 +11,13 @@ Requirements
 Included modules
 ===========
 B3EF comes prepackaged with four modules:
+
+
     *Mapsettings:
      Create tailor-made settings for each and every map/mode combination in your rotation. You can specify your desired
      settings, allowed weapons and announcements for a map/mode combination. This module will take care of altering and
      resetting the server settings and enforcing weapon restrictions in a way that does not interrupt gameplay.
+
 
     *Votekick/Voteban
 
