@@ -1,0 +1,37 @@
+INFO:root:Connecting to port: 85.14.232.194:47200...
+INFO:root:Logging in - 1: retrieving salt...
+INFO:root:[0L, 1073741824, 0, ['OK', 'EF7CF009DC310BC6C17E051D6D4A8097']]
+INFO:root:Received salt: EF7CF009DC310BC6C17E051D6D4A8097
+INFO:root:Computed password hash: 0BDD1698D26F892A4942A1E9006A3E9A
+INFO:root:Logging in - 2: sending hash...
+INFO:root:[0L, 1073741824, 1, ['OK']]
+INFO:root:done setting up battlequery
+INFO:root:Connecting to port: 85.14.232.194:47200...
+INFO:root:Logging in - 1: retrieving salt...
+INFO:root:[0L, 1073741824, 2, ['OK', '218344C4998F21C39F8B2EA8F0D299A3']]
+INFO:root:Received salt: 218344C4998F21C39F8B2EA8F0D299A3
+INFO:root:Computed password hash: 903C43775E52B05A69C4FDE56BE70665
+INFO:root:Logging in - 2: sending hash...
+INFO:root:[0L, 1073741824, 3, ['OK']]
+DEBUG:root:Attempting to load module killstreakannouncer
+DEBUG:root:Attempting to load module votekickban
+DEBUG:root:Attempting to load module mapsettings
+DEBUG:root:Attempting to load module minmaxrank
+INFO:root:Trying to import additional required module punisher :
+INFO:root:Successfully imported module punisher!
+INFO:root:Trying to import additional required module loadlock :
+INFO:root:Successfully imported module loadlock!
+INFO:root:Trying to import additional required module playerlist :
+INFO:root:Successfully imported module playerlist!
+INFO:root:Trying to import additional required module playerlist :
+INFO:root:Successfully imported module playerlist!
+INFO:root:Trying to initalize mod punisher
+INFO:root:Loaded Punishment Module ( punisher ) by codesuela
+INFO:root:Trying to initalize mod votekickban
+INFO:root:Loaded Votekickban Module ( votekickban ) by codesuela
+INFO:root:Trying to initalize mod loadlock
+INFO:root:Loaded Map Loading Module ( loadlock ) by codesuela
+INFO:root:Trying to initalize mod minmaxrank
+INFO:root:Loaded Min or max rank enforcer ( minmaxrank ) by codesuela
+INFO:root:Trying to initalize mod killstreakannouncer
+INFO:root:Loaded Killstreak Announcer ( killstreakannouncer ) by codesuela

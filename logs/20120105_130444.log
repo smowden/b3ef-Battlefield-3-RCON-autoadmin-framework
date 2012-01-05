@@ -1,0 +1,59 @@
+INFO:root:Connecting to port: 85.14.232.194:47200...
+INFO:root:Logging in - 1: retrieving salt...
+INFO:root:[0L, 1073741824, 0, ['OK', 'A930F04836F7A0DF908EFF3513702FEE']]
+INFO:root:Received salt: A930F04836F7A0DF908EFF3513702FEE
+INFO:root:Computed password hash: 11D26ACFE4F962D94B08DDA0CA7AC56B
+INFO:root:Logging in - 2: sending hash...
+INFO:root:[0L, 1073741824, 1, ['OK']]
+INFO:root:done setting up battlequery
+INFO:root:Connecting to port: 85.14.232.194:47200...
+INFO:root:Logging in - 1: retrieving salt...
+INFO:root:[0L, 1073741824, 2, ['OK', '21C39F8B2EA8F0D299A3D4CEA0293F4E']]
+INFO:root:Received salt: 21C39F8B2EA8F0D299A3D4CEA0293F4E
+INFO:root:Computed password hash: AE6A1A4C6471BEA228B4391DABFAC3D7
+INFO:root:Logging in - 2: sending hash...
+INFO:root:[0L, 1073741824, 3, ['OK']]
+DEBUG:root:Attempting to load module killstreakannouncer
+DEBUG:root:Attempting to load module votekickban
+DEBUG:root:Attempting to load module mapsettings
+DEBUG:root:Attempting to load module minmaxrank
+INFO:root:Trying to import additional required module punisher :
+INFO:root:Successfully imported module punisher!
+INFO:root:Trying to import additional required module loadlock :
+INFO:root:Successfully imported module loadlock!
+INFO:root:Trying to import additional required module playerlist :
+INFO:root:Successfully imported module playerlist!
+INFO:root:Trying to import additional required module playerlist :
+INFO:root:Successfully imported module playerlist!
+INFO:root:Trying to initalize mod punisher
+INFO:root:Loaded Punishment Module ( punisher ) by codesuela
+INFO:root:Trying to initalize mod votekickban
+INFO:root:Loaded Votekickban Module ( votekickban ) by codesuela
+INFO:root:Trying to initalize mod loadlock
+INFO:root:Loaded Map Loading Module ( loadlock ) by codesuela
+INFO:root:Trying to initalize mod minmaxrank
+INFO:root:Loaded Min or max rank enforcer ( minmaxrank ) by codesuela
+INFO:root:Trying to initalize mod killstreakannouncer
+INFO:root:Loaded Killstreak Announcer ( killstreakannouncer ) by codesuela
+INFO:root:Trying to initalize mod playerlist
+INFO:root:Loaded Playerlist Module ( playerlist ) by codesuela
+INFO:root:Trying to initalize mod base
+INFO:root:Loaded base ( base ) by codesuela
+INFO:root:Trying to initalize mod mapsettings
+INFO:root:Loaded Map Settings ( mapsettings ) by codesuela
+DEBUG:root:Sending command:['admin.listPlayers', 'all']
+DEBUG:root:Printing Packet :
+DEBUG:root:[0L, 1073741824, 4, ['OK', '7', 'name', 'guid', 'teamId', 'squadId', 'kills', 'deaths', 'score', '0']]
+DEBUG:root:Sending command:['mapList.list']
+DEBUG:root:Printing Packet :
+DEBUG:root:[0L, 1073741824, 5, ['OK', '4', '3', 'XP1_001', 'SquadDeathMatch0', '64', 'XP1_002', 'SquadDeathMatch0', '64', 'XP1_003', 'SquadDeathMatch0', '64', 'XP1_003', 'SquadDeathMatch0', '64']]
+WARNING:root:invalid startup setting:
+WARNING:root:['']
+DEBUG:root:Sending command:['mapList.getMapIndices']
+DEBUG:root:Printing Packet :
+DEBUG:root:[0L, 1073741824, 6, ['OK', '2', '3']]
+INFO:root:Enabling events...
+DEBUG:root:[0L, 1073741824, 7, ['OK']]
+INFO:root:Now waiting for events.
+DEBUG:root:['punkBuster.onMessage', 'PunkBuster Server: PB UCON "ggc_85.214.107.154"@85.214.107.154:14669 [pb_sv_ver]\n']
+DEBUG:root:punkBusterOnMessage

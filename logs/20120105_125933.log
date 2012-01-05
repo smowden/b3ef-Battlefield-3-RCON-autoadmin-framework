@@ -1,0 +1,58 @@
+INFO:root:Connecting to port: 85.14.232.194:47200...
+INFO:root:Logging in - 1: retrieving salt...
+INFO:root:[0L, 1073741824, 0, ['OK', 'D174D4BFB1ADE780DFDB218344C4998F']]
+INFO:root:Received salt: D174D4BFB1ADE780DFDB218344C4998F
+INFO:root:Computed password hash: 65B3D1EFE97C9E5F0C0DE0373880F827
+INFO:root:Logging in - 2: sending hash...
+INFO:root:[0L, 1073741824, 1, ['OK']]
+INFO:root:done setting up battlequery
+INFO:root:Connecting to port: 85.14.232.194:47200...
+INFO:root:Logging in - 1: retrieving salt...
+INFO:root:[0L, 1073741824, 2, ['OK', 'E46080327EEC5212C13FAA56D831B188']]
+INFO:root:Received salt: E46080327EEC5212C13FAA56D831B188
+INFO:root:Computed password hash: FCAD14B7D1B9587E1A1FBD205F4C710F
+INFO:root:Logging in - 2: sending hash...
+INFO:root:[0L, 1073741824, 3, ['OK']]
+DEBUG:root:Attempting to load module mapsettings
+DEBUG:root:Attempting to load module punisher
+DEBUG:root:Attempting to load module minmaxrank
+INFO:root:Trying to import additional required module loadlock :
+INFO:root:Successfully imported module loadlock!
+INFO:root:Trying to import additional required module playerlist :
+INFO:root:Successfully imported module playerlist!
+INFO:root:Trying to import additional required module punisher :
+INFO:root:Successfully imported module punisher!
+INFO:root:Trying to import additional required module loadlock :
+INFO:root:Successfully imported module loadlock!
+INFO:root:Trying to import additional required module playerlist :
+INFO:root:Successfully imported module playerlist!
+INFO:root:Trying to initalize mod punisher
+INFO:root:Loaded Punishment Module ( punisher ) by codesuela
+INFO:root:Trying to initalize mod loadlock
+INFO:root:Loaded Map Loading Module ( loadlock ) by codesuela
+INFO:root:Trying to initalize mod minmaxrank
+INFO:root:Loaded Min or max rank enforcer ( minmaxrank ) by codesuela
+INFO:root:Trying to initalize mod playerlist
+INFO:root:Loaded Playerlist Module ( playerlist ) by codesuela
+INFO:root:Trying to initalize mod base
+INFO:root:Loaded base ( base ) by codesuela
+INFO:root:Trying to initalize mod mapsettings
+INFO:root:Loaded Map Settings ( mapsettings ) by codesuela
+DEBUG:root:Sending command:['admin.listPlayers', 'all']
+DEBUG:root:Printing Packet :
+DEBUG:root:[0L, 1073741824, 4, ['OK', '7', 'name', 'guid', 'teamId', 'squadId', 'kills', 'deaths', 'score', '0']]
+DEBUG:root:Sending command:['mapList.list']
+DEBUG:root:Printing Packet :
+DEBUG:root:[0L, 1073741824, 5, ['OK', '4', '3', 'XP1_001', 'SquadDeathMatch0', '64', 'XP1_002', 'SquadDeathMatch0', '64', 'XP1_003', 'SquadDeathMatch0', '64', 'XP1_003', 'SquadDeathMatch0', '64']]
+WARNING:root:invalid startup setting:
+WARNING:root:['']
+DEBUG:root:Sending command:['mapList.getMapIndices']
+DEBUG:root:Printing Packet :
+DEBUG:root:[0L, 1073741824, 6, ['OK', '2', '3']]
+INFO:root:Enabling events...
+DEBUG:root:[0L, 1073741824, 7, ['OK']]
+INFO:root:Now waiting for events.
+DEBUG:root:['punkBuster.onMessage', 'PunkBuster Server: PB UCON "ggc_85.214.107.154"@85.214.107.154:14669 [pb_sv_plist]\n']
+DEBUG:root:punkBusterOnMessage
+DEBUG:root:['punkBuster.onMessage', 'PunkBuster Server: PB UCON "ggc_85.214.107.154"@85.214.107.154:14669 [admin.say "Server is cheat protected by GGC-Stream.com" all]\n']
+DEBUG:root:punkBusterOnMessage

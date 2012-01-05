@@ -1,0 +1,160 @@
+INFO:root:Connecting to port: 85.14.232.80:47200...
+INFO:root:Logging in - 1: retrieving salt...
+INFO:root:[0L, 1073741824, 0, ['OK', 'C79E9DF7A67CF45AEDDD3809E194633F']]
+INFO:root:Received salt: C79E9DF7A67CF45AEDDD3809E194633F
+INFO:root:Computed password hash: 451FDA6BB5EE30880F3749C155292D7C
+INFO:root:Logging in - 2: sending hash...
+INFO:root:[0L, 1073741824, 1, ['OK']]
+INFO:root:done setting up battlequery
+INFO:root:Connecting to port: 85.14.232.80:47200...
+INFO:root:Logging in - 1: retrieving salt...
+INFO:root:[0L, 1073741824, 2, ['OK', '9DF7A67CF45AEDDD3809E194633F7AD9']]
+INFO:root:Received salt: 9DF7A67CF45AEDDD3809E194633F7AD9
+INFO:root:Computed password hash: 263A2A87A731171796093C1F2A890149
+INFO:root:Logging in - 2: sending hash...
+INFO:root:[0L, 1073741824, 3, ['OK']]
+DEBUG:root:Attempting to load module killstreakannouncer
+DEBUG:root:Attempting to load module votekickban
+DEBUG:root:Attempting to load module mapsettings
+DEBUG:root:Attempting to load module minmaxrank
+INFO:root:Trying to import additional required module punisher :
+INFO:root:Successfully imported module punisher!
+INFO:root:Trying to import additional required module loadlock :
+INFO:root:Successfully imported module loadlock!
+INFO:root:Trying to import additional required module playerlist :
+INFO:root:Successfully imported module playerlist!
+INFO:root:Trying to import additional required module playerlist :
+INFO:root:Successfully imported module playerlist!
+INFO:root:Trying to initalize mod punisher
+INFO:root:Loaded Punishment Module ( punisher ) by codesuela
+INFO:root:Trying to initalize mod votekickban
+INFO:root:Loaded Votekickban Module ( votekickban ) by codesuela
+INFO:root:Trying to initalize mod loadlock
+INFO:root:Loaded Map Loading Module ( loadlock ) by codesuela
+INFO:root:Trying to initalize mod minmaxrank
+INFO:root:Loaded Min or max rank enforcer ( minmaxrank ) by codesuela
+INFO:root:Trying to initalize mod killstreakannouncer
+INFO:root:Loaded Killstreak Announcer ( killstreakannouncer ) by codesuela
+INFO:root:Trying to initalize mod playerlist
+INFO:root:Loaded Playerlist Module ( playerlist ) by codesuela
+INFO:root:Trying to initalize mod base
+INFO:root:Loaded base ( base ) by codesuela
+INFO:root:Trying to initalize mod mapsettings
+INFO:root:Loaded Map Settings ( mapsettings ) by codesuela
+DEBUG:root:Sending command:['admin.listPlayers', 'all']
+DEBUG:root:Printing Packet :
+DEBUG:root:[0L, 1073741824, 4, ['OK', '7', 'name', 'guid', 'teamId', 'squadId', 'kills', 'deaths', 'score', '1', 'JosefAckermann', 'EA_9CED4B3FF36BD61D0CBE74662DFC3A52', '1', '0', '0', '0', '0']]
+DEBUG:root:Sending command:['mapList.list']
+DEBUG:root:Printing Packet :
+DEBUG:root:[0L, 1073741824, 5, ['OK', '6', '3', 'XP1_002', 'ConquestSmall0', '1', 'XP1_004', 'ConquestSmall0', '1', 'MP_Subway', 'ConquestSmall0', '2', 'XP1_003', 'ConquestSmall0', '1', 'XP1_001', 'ConquestSmall0', '1', 'MP_Subway', 'ConquestSmall0', '2']]
+WARNING:root:invalid startup setting:
+WARNING:root:['']
+DEBUG:root:Sending command:['mapList.getMapIndices']
+DEBUG:root:Printing Packet :
+DEBUG:root:[0L, 1073741824, 6, ['OK', '2', '3']]
+INFO:root:Enabling events...
+DEBUG:root:[0L, 1073741824, 7, ['OK']]
+INFO:root:Now waiting for events.
+DEBUG:root:['player.onChat', 'JosefAckermann', '/sm']
+DEBUG:root:playerOnChat
+DEBUG:root:Sending command:['admin.killPlayer', 'JosefAckermann']
+DEBUG:root:Printing Packet :
+DEBUG:root:[0L, 1073741824, 8, ['OK']]
+DEBUG:root:Sending command:['admin.say', '"Player JosefAckermann was punished by death"', 'all']
+DEBUG:root:Printing Packet :
+DEBUG:root:[0L, 1073741824, 9, ['OK']]
+DEBUG:root:['player.onKill', '', 'JosefAckermann', 'Death', 'false']
+DEBUG:root:playerOnKill
+DEBUG:root:['player.onChat', 'Server', '"Player JosefAckermann was punished by death"']
+DEBUG:root:playerOnChat
+DEBUG:root:['punkBuster.onMessage', 'PunkBuster Server: Master Query Sent to (BF31.EVENBALANCE.COM) 66.180.170.20\n']
+DEBUG:root:punkBusterOnMessage
+DEBUG:root:['punkBuster.onMessage', 'PunkBuster Server: Received Master Security Information\n']
+DEBUG:root:punkBusterOnMessage
+DEBUG:root:['player.onSpawn', 'JosefAckermann', '1']
+DEBUG:root:playerOnSpawn
+DEBUG:root:['punkBuster.onMessage', 'PunkBuster Server: Player List: [Slot #] [GUID] [Address] [Status] [Power] [Auth Rate] [Recent SS] [O/S] [Name]\n']
+DEBUG:root:punkBusterOnMessage
+DEBUG:root:['player.onChat', 'JosefAckermann', '/sm']
+DEBUG:root:playerOnChat
+DEBUG:root:Sending command:['admin.killPlayer', 'JosefAckermann']
+DEBUG:root:Printing Packet :
+DEBUG:root:[0L, 1073741824, 10, ['OK']]
+DEBUG:root:Sending command:['admin.say', '"Player JosefAckermann was punished by death"', 'all']
+DEBUG:root:Printing Packet :
+DEBUG:root:[0L, 1073741824, 11, ['OK']]
+DEBUG:root:['player.onKill', '', 'JosefAckermann', 'Death', 'false']
+DEBUG:root:playerOnKill
+DEBUG:root:['player.onChat', 'Server', '"Player JosefAckermann was punished by death"']
+DEBUG:root:playerOnChat
+DEBUG:root:['player.onSpawn', 'JosefAckermann', '1']
+DEBUG:root:playerOnSpawn
+DEBUG:root:['player.onChat', 'JosefAckermann', '/sm']
+DEBUG:root:playerOnChat
+DEBUG:root:Sending command:['admin.killPlayer', 'JosefAckermann']
+DEBUG:root:Printing Packet :
+DEBUG:root:[0L, 1073741824, 12, ['OK']]
+DEBUG:root:Sending command:['admin.say', '"Take five JosefAckermann"', 'all']
+DEBUG:root:Printing Packet :
+DEBUG:root:[0L, 1073741824, 13, ['OK']]
+DEBUG:root:['player.onKill', '', 'JosefAckermann', 'Death', 'false']
+DEBUG:root:playerOnKill
+DEBUG:root:['player.onChat', 'Server', '"Take five JosefAckermann"']
+DEBUG:root:playerOnChat
+DEBUG:root:['player.onSpawn', 'JosefAckermann', '1']
+DEBUG:root:playerOnSpawn
+DEBUG:root:['player.onChat', 'JosefAckermann', 'asd']
+DEBUG:root:playerOnChat
+DEBUG:root:Sending command:['admin.killPlayer', 'JosefAckermann']
+DEBUG:root:Printing Packet :
+DEBUG:root:[0L, 1073741824, 14, ['OK']]
+DEBUG:root:['player.onKill', '', 'JosefAckermann', 'Death', 'false']
+DEBUG:root:playerOnKill
+DEBUG:root:Sending command:['admin.say', ' Mega Kill', 'all']
+DEBUG:root:Printing Packet :
+DEBUG:root:[0L, 1073741824, 15, ['OK']]
+DEBUG:root:['player.onChat', 'Server', ' Mega Kill']
+DEBUG:root:playerOnChat
+DEBUG:root:['player.onSpawn', 'JosefAckermann', '1']
+DEBUG:root:playerOnSpawn
+DEBUG:root:['player.onChat', 'JosefAckermann', 'asd']
+DEBUG:root:playerOnChat
+DEBUG:root:['player.onChat', 'JosefAckermann', '/sm']
+DEBUG:root:playerOnChat
+DEBUG:root:Sending command:['admin.killPlayer', 'JosefAckermann']
+DEBUG:root:Printing Packet :
+DEBUG:root:[0L, 1073741824, 16, ['OK']]
+DEBUG:root:Sending command:['admin.say', '"Take five JosefAckermann"', 'all']
+DEBUG:root:Printing Packet :
+DEBUG:root:[0L, 1073741824, 17, ['OK']]
+DEBUG:root:['player.onKill', '', 'JosefAckermann', 'Death', 'false']
+DEBUG:root:playerOnKill
+DEBUG:root:Sending command:['admin.say', ' Ultra Kill', 'all']
+DEBUG:root:Printing Packet :
+DEBUG:root:[0L, 1073741824, 18, ['OK']]
+DEBUG:root:['player.onChat', 'Server', '"Take five JosefAckermann"']
+DEBUG:root:playerOnChat
+DEBUG:root:['player.onChat', 'Server', ' Ultra Kill']
+DEBUG:root:playerOnChat
+DEBUG:root:['punkBuster.onMessage', 'PunkBuster Server: Player List: [Slot #] [GUID] [Address] [Status] [Power] [Auth Rate] [Recent SS] [O/S] [Name]\n']
+DEBUG:root:punkBusterOnMessage
+DEBUG:root:['player.onSpawn', 'JosefAckermann', '1']
+DEBUG:root:playerOnSpawn
+DEBUG:root:['player.onChat', 'JosefAckermann', '/sm']
+DEBUG:root:playerOnChat
+DEBUG:root:Sending command:['admin.kickPlayer', 'JosefAckermann', '"Player JosefAckermann was kicked from the server"']
+DEBUG:root:Printing Packet :
+DEBUG:root:[0L, 1073741824, 19, ['OK']]
+DEBUG:root:Sending command:['admin.say', '"Player JosefAckermann was kicked from the server"', 'all']
+DEBUG:root:Printing Packet :
+DEBUG:root:[0L, 1073741824, 20, ['OK']]
+DEBUG:root:Sending command:['admin.killPlayer', 'JosefAckermann']
+DEBUG:root:Printing Packet :
+DEBUG:root:[0L, 1073741824, 21, ['InvalidPlayerName']]
+DEBUG:root:['player.onLeave', 'JosefAckermann', '7', 'name', 'guid', 'teamId', 'squadId', 'kills', 'deaths', 'score', '1', 'JosefAckermann', 'EA_9CED4B3FF36BD61D0CBE74662DFC3A52', '1', '0', '0', '0', '0']
+DEBUG:root:playerOnLeave
+DEBUG:root:Sending command:['admin.listPlayers', 'all']
+DEBUG:root:Printing Packet :
+DEBUG:root:[0L, 1073741824, 22, ['OK', '7', 'name', 'guid', 'teamId', 'squadId', 'kills', 'deaths', 'score', '0']]
+DEBUG:root:['punkBuster.onMessage', 'PunkBuster Server: Player List: [Slot #] [GUID] [Address] [Status] [Power] [Auth Rate] [Recent SS] [O/S] [Name]\n']
+DEBUG:root:punkBusterOnMessage
